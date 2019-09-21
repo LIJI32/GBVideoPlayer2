@@ -1,5 +1,5 @@
 # GBVideoPlayer2
-A new version of GBVideoPlayer with higher resolution, 3-bit stereo PCM audio and video compression.
+A new version of [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) with higher resolution, 3-bit stereo PCM audio and video compression.
 
 Version 2 increases the horizontal resolution by up to 4, replaces the chiptune music with ~9KHz, 3-bit PCM audio, introduces simple video compression with configurable quality settings, and uses a faster and easier to use encoding routines that can directly re-encode FFMPEG-compatible video to GBVP2 format.
 
@@ -11,9 +11,9 @@ You can grab compiled example ROMs from the [releases page](https://github.com/L
 
 For playing a GBVP2 video ROM on hardware, an MBC5-compatible flash cart is required. Remember that your cartridge's capacity must be big enough for your ROM – if your ROM is over 4MBs, you will need a cartridge that can store a 8MB ROM. (Note: the common EMS 64M flash carts can only store two 4MB (32 megabits) ROMs, not a single 8MB (64 megabits) ROM)
 
-For playing a GBVP2 video ROM on an emulator, you must use an accurate Game Boy Color emulator, such as recent versions of [SameBoy](https://sameboy.github.io) or BGB. GBVP2 will not work on inaccurate emulators, such as VisualBoyAdvance or GameBoy Online.
+For playing a GBVP2 video ROM on an emulator, you must use an accurate Game Boy Color emulator, such as recent versions of [SameBoy](https://sameboy.github.io) or [BGB](http://bgb.bircd.org). GBVP2 will not work on inaccurate emulators, such as VisualBoyAdvance or GameBoy Online.
 
-For encoding and building a video ROM, you will need a Make, a C compiler (Clang recommended), [rgbds](https://github.com/bentley/rgbds/releases/), and a recent version of FFMPEG.
+For encoding and building a video ROM, you will need a Make, a C compiler (Clang recommended), [rgbds](https://github.com/rednex/rgbds/releases/), and a recent version of [FFMPEG](http://ffmpeg.org/).
 
 ## Format Specifications
 
