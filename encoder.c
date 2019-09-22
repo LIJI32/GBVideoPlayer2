@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h> 
-#include <string.h> 
+#include <stdbool.h>
+#include <string.h>
+#include <stdint.h>
 
 #define SCREEN_SIZE (160 * 144)
 #define PIXELS (SCREEN_SIZE * 2)
